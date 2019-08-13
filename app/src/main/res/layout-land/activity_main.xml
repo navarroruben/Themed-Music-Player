@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fsu"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/fear_the_spear"
+        android:textColor="#B68837"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/fsu_playlist"
+        android:textColor="#CDC092"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/fsu_war_chant"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/fsu_fight_song"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/fsu_victory_song"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/gold_and_garnett"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/fsu_cheer"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/_4th_quater_fanfare"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:text="@string/seminole_uprising"
+        android:textColor="#CDC092" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:background="#000"
+        android:text="@string/pause"
+        android:textColor="#CDC092"
+        android:translationX="495dp"
+        android:translationY="-170dp"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="155dp"
+        android:layout_height="18dp"
+        android:progressTint="#CDC092"
+        android:thumbTint="#CDC092"
+        android:translationX="320dp"
+        android:translationY="-80dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:background="#000"
+        android:gravity="center"
+        android:text="@string/stop"
+        android:textColor="#CDC092"
+        android:translationX="10dp"
+        android:translationY="-75dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="152dp"
+        android:layout_height="214dp"
+        android:contentDescription="@string/todo"
+        android:translationX="325dp"
+        android:translationY="-350dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/stop" />
+
+</LinearLayout>

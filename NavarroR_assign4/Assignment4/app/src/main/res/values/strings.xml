@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ruben Navarro - Assignment 4</string>
+    <string name="fear_the_spear">FEAR THE SPEAR!</string>
+    <string name="fsu_war_chant">FSU War Chant</string>
+    <string name="fsu_fight_song">FSU Fight Song</string>
+    <string name="fsu_victory_song">FSU Victory Song</string>
+    <string name="gold_and_garnett">Gold and Garnett</string>
+    <string name="fsu_cheer">FSU Cheer</string>
+    <string name="_4th_quater_fanfare">4th Quater Fanfare</string>
+    <string name="seminole_uprising">Seminole Uprising</string>
+    <string name="stop">STOP</string>
+    <string name="fsu_playlist">FSU Playlist</string>
+    <string name="pause">Pause</string>
+    <string name="todo">TODO</string>
+</resources>
